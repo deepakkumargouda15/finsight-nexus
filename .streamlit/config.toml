@@ -1,0 +1,4 @@
+[server]
+fileWatcherType = "none"
+headless = true
+maxUploadSize = 20

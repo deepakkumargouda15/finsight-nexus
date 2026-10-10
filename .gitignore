@@ -1,0 +1,39 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+.env
+.DS_Store
+data_uploads/
+*.xlsx
+*.xls
+.coverage
+
+docs/screenshots/*.tmp
+playwright-report/
+test-results/
+# Python environment and tooling
+venv/
+ENV/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables and credentials
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# OS and editor files
+Thumbs.db
+.vscode/
+
+# Generated test and coverage reports
+htmlcov/
+coverage.xml
